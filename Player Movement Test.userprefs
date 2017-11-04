@@ -1,0 +1,20 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Character.cs">
+    <Files>
+      <File FileName="Assets\Scripts\BattleOp.cs" Line="16" Column="19" />
+      <File FileName="Assets\Scripts\MoveMessenger.cs" Line="29" Column="15" />
+      <File FileName="Assets\Scripts\Character.cs" Line="6" Column="1" />
+      <File FileName="Assets\Scripts\BoardOp.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\MainCharacter.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\PartyMember.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\MovingCharacter.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Move.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\MoveMessengerComparer.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
