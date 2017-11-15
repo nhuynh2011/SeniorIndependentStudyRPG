@@ -124,3 +124,5 @@ C:\Users\Navarre\Dropbox\Player Movement Test and Battle Test 2-21-16\Temp\bin\D
 C:\Users\Navarre\Dropbox\Player Movement Test and Battle Test 2-21-16\Temp\bin\Debug\UnityEngine.UI.xml
 C:\Users\Navarre\Dropbox\Player Movement Test and Battle Test 2-21-16\Temp\bin\Debug\UnityEngine.Networking.xml
 C:\Users\Navarre\Dropbox\Player Movement Test and Battle Test 2-21-16\obj\Debug\Assembly-CSharp.pdb
+C:\Users\Nick Huynh\Documents\Side Coding Projects\Player Movement Test and Battle Test 2-21-16\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
+C:\Users\Nick Huynh\Documents\Side Coding Projects\Player Movement Test and Battle Test 2-21-16\obj\Debug\Assembly-CSharp.dll
