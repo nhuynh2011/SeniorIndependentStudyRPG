@@ -25,7 +25,7 @@ public class MainMenu : MonoBehaviour {
 		if(currentMenu == Menu.MainMenu) {
 			
 			SaveLoad.LoadState ();
-			GUILayout.Box("Nick and Navarre's Game");
+			GUILayout.Box("Role-Playing Game");
 			GUILayout.Space(10);
 
 			if(GUILayout.Button("New Game")){
@@ -59,9 +59,15 @@ public class MainMenu : MonoBehaviour {
 			GameOp.newParty3Name = GUILayout.TextField(GameOp.newParty3Name, 20);
 
 			if(GUILayout.Button("Start")) {
-				SaveLoad.SaveState();
-				//Move on to game...
-				SceneManager.LoadScene("Start");
+				if (GameOp.newMainName.Equals("") || GameOp.newParty1Name.Equals("") || GameOp.newParty2Name.Equals("") || GameOp.newParty3Name.Equals("")) {
+					Debug.LogWarning("Give your party names!");
+				} else if (GameOp.newParty1Name.Equals (GameOp.newParty2Name) || GameOp.newParty2Name.Equals (GameOp.newParty3Name) || GameOp.newParty1Name.Equals (GameOp.newParty3Name)) {
+					Debug.LogWarning("Teammate Names Cannot Match!");
+				} else {
+					SaveLoad.SaveState ();
+					//Move on to game...
+					SceneManager.LoadScene ("Start");
+				}
 			}
 
 			GUILayout.Space(10);
