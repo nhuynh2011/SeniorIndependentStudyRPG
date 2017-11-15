@@ -223,6 +223,7 @@ public class BattleOp : MonoBehaviour {
 		needToPrint = true;
 	}
 
+	//need to revamp AI moving
 	private object SelectAIMove (){
 		System.Random rnd = new System.Random();
 		for (int i = 0; i < aliveEnemyList.Capacity; i++) {

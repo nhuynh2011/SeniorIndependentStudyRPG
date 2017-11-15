@@ -12,6 +12,8 @@ public class MainMenu : MonoBehaviour {
 
 	public Menu currentMenu;
 
+
+	//change it so they need to put in names and none of them can be identical or blank
 	void OnGUI () {
 
 		GUILayout.BeginArea(new Rect(0,0,Screen.width, Screen.height));
