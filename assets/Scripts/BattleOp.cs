@@ -6,34 +6,18 @@ using UnityEngine.SceneManagement;
 
 public class BattleOp : MonoBehaviour {
 
-	public int numChar;
-	public List<Character> aliveTeammateList;
-	public List<Character> deadTeammateList;
-	public List<Character> aliveEnemyList;
-	public List<Character> deadEnemyList;
-	public List<Character> allTeammateList;
-	public List<Character> allEnemyList;
-	public Character[] allEntityList;
-	private bool playerTurn = false;
-	private int currentChar = 0;
-	private int currentTarget = 0;
-	private int currentMove = 0;
-	private int selectedMove = -1;
-	private Character attackedPlayer = null;
+	public int numChar, currentPageOfMovesOrTargets;
+	public List<Character> aliveTeammateList, deadTeammateList, allTeammateList, aliveEnemyList, deadEnemyList, allEnemyList;
+	public Character[] allEntityList;	
 	public SortedList moveList = new SortedList(new MoveMessengerComparer());
-	public int enemyMove;
-	public bool hasSelectedMove = false;
-	public bool hasSelectedTarget = false;
-	GameObject lastKnownInput;
+	public bool hasSelectedMove = false, hasSelectedTarget = false, needToPrint = true, calledBattleCoroutine = false;
 	public GameObject[] meButtons = new GameObject[4];
-	GameObject battleLog;
+	GameObject lastKnownInput, battleLog;
+
+	private bool playerTurn = false, pressedEnter = false, needToChange = false;
+	private int currentChar, currentTarget, currentMove, selectedMove = -1, enemyMove, currentHighlight;
+	private Character attackedPlayer = null;
 	private string battleLogText = "";
-	public int currentPageOfMovesOrTargets = 0;
-	private bool pressedEnter = false;
-	private bool needToChange = false;
-	private int currentHighlight = 0;
-	public bool needToPrint = true;
-	public bool calledBattleCoroutine = false;
 
 	void Start () {
 		lastKnownInput = EventSystem.current.firstSelectedGameObject;

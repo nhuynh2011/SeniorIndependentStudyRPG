@@ -45,32 +45,32 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Tiled2Unity\Scripts\Editor\CustomTiledImporterAttribute.cs" />
-     <Compile Include="Assets\Tiled2Unity\Scripts\Editor\ICustomTiledImporter.cs" />
-     <Compile Include="Assets\Tiled2Unity\Scripts\Editor\ImportTiled2Unity.Material.cs" />
-     <Compile Include="Assets\Tiled2Unity\Scripts\Editor\ImportTiled2Unity.Mesh.cs" />
-     <Compile Include="Assets\Tiled2Unity\Scripts\Editor\ImportTiled2Unity.Texture.cs" />
-     <Compile Include="Assets\Tiled2Unity\Scripts\Editor\ImportTiled2Unity.Xml.cs" />
-     <Compile Include="Assets\Tiled2Unity\Scripts\Editor\ImportTiled2Unity.cs" />
-     <Compile Include="Assets\Tiled2Unity\Scripts\Editor\ImportUtils.cs" />
-     <Compile Include="Assets\Tiled2Unity\Scripts\Editor\SortingLayerExposedEditor.cs" />
-     <Compile Include="Assets\Tiled2Unity\Scripts\Editor\Tiled2UnityMenuItems.cs" />
-     <Compile Include="Assets\Tiled2Unity\Scripts\Editor\TiledAssetPostProcessor.cs" />
-     <None Include="Assets\Tiled2Unity\Shaders\shaDefault.shader" />
-     <None Include="Assets\Tiled2Unity\Prefabs\_ReadMe.txt" />
-     <None Include="Assets\Tiled2Unity\Shaders\shaTiledMap.shader" />
-     <None Include="Assets\Tiled2Unity\Tiled2Unity.export.txt" />
-     <None Include="Assets\Tiled2Unity\Imported\Test.tiled2unity.xml" />
-     <None Include="Assets\Tiled2Unity\Imported\Cave Entrence.tiled2unity.xml" />
-     <None Include="Assets\Tiled2Unity\Materials\_ReadMe.txt" />
-     <None Include="Assets\Fonts\OFL.txt" />
-     <None Include="Assets\Tiled2Unity\Textures\_ReadMe.txt" />
-     <None Include="Assets\Tiled2Unity\Imported\Inside Cave.tiled2unity.xml" />
-     <None Include="Assets\Tiled2Unity\Imported\Cliff Water.tiled2unity.xml" />
-     <None Include="Assets\Tiled2Unity\Shaders\shaColorKey.shader" />
-     <None Include="Assets\Tiled2Unity\License.txt" />
-     <None Include="Assets\Tiled2Unity\Imported\_ReadMe.txt" />
-     <None Include="Assets\Tiled2Unity\Meshes\_ReadMe.txt" />
+     <Compile Include="assets\tiled2unity\scripts\Editor\CustomTiledImporterAttribute.cs" />
+     <Compile Include="assets\tiled2unity\scripts\Editor\ICustomTiledImporter.cs" />
+     <Compile Include="assets\tiled2unity\scripts\Editor\ImportTiled2Unity.Material.cs" />
+     <Compile Include="assets\tiled2unity\scripts\Editor\ImportTiled2Unity.Mesh.cs" />
+     <Compile Include="assets\tiled2unity\scripts\Editor\ImportTiled2Unity.Texture.cs" />
+     <Compile Include="assets\tiled2unity\scripts\Editor\ImportTiled2Unity.Xml.cs" />
+     <Compile Include="assets\tiled2unity\scripts\Editor\ImportTiled2Unity.cs" />
+     <Compile Include="assets\tiled2unity\scripts\Editor\ImportUtils.cs" />
+     <Compile Include="assets\tiled2unity\scripts\Editor\SortingLayerExposedEditor.cs" />
+     <Compile Include="assets\tiled2unity\scripts\Editor\Tiled2UnityMenuItems.cs" />
+     <Compile Include="assets\tiled2unity\scripts\Editor\TiledAssetPostProcessor.cs" />
+     <None Include="assets\tiled2unity\Shaders\shaDefault.shader" />
+     <None Include="assets\tiled2unity\Prefabs\_ReadMe.txt" />
+     <None Include="assets\tiled2unity\Shaders\shaTiledMap.shader" />
+     <None Include="assets\tiled2unity\Tiled2Unity.export.txt" />
+     <None Include="assets\tiled2unity\Imported\Test.tiled2unity.xml" />
+     <None Include="assets\tiled2unity\Imported\Cave Entrence.tiled2unity.xml" />
+     <None Include="assets\tiled2unity\Materials\_ReadMe.txt" />
+     <None Include="assets\Fonts\OFL.txt" />
+     <None Include="assets\tiled2unity\Textures\_ReadMe.txt" />
+     <None Include="assets\tiled2unity\Imported\Inside Cave.tiled2unity.xml" />
+     <None Include="assets\tiled2unity\Imported\Cliff Water.tiled2unity.xml" />
+     <None Include="assets\tiled2unity\Shaders\shaColorKey.shader" />
+     <None Include="assets\tiled2unity\License.txt" />
+     <None Include="assets\tiled2unity\Imported\_ReadMe.txt" />
+     <None Include="assets\tiled2unity\Meshes\_ReadMe.txt" />
  <Reference Include="UnityEditor.Advertisements">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Advertisements/Editor/UnityEditor.Advertisements.dll</HintPath>
  </Reference>
